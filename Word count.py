@@ -4,14 +4,14 @@ f.close()
 words = data.split(" ")
 numb_words = len(words)
 numb_words = int(numb_words)
-print("The number of words is", numb_words)
+print("The number of words in Harry Potter is", numb_words)
 
 f2 = open("/Users/dschmedding/PycharmProjects/9March/Dracula", "r")
 data2 = f2.read()
 words2 = data2.split(" ")
-numb_words2 = len(words)
+numb_words2 = len(words2)
 numb_words2 = int(numb_words2)
-print("The number of words in the second text is", numb_words2)
+print("The number of words in Dracula is", numb_words2)
 
 if numb_words > numb_words2:
     print("Harry Potter has more words than Dracula")
