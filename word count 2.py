@@ -18,7 +18,4 @@ if numb_words > numb_words2:
 if numb_words2 > numb_words:
     print("Dracula has more words than Harry Potter")
 
-
-
-
-
+unique words = []
